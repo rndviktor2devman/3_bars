@@ -58,7 +58,5 @@ if __name__ == '__main__':
     	print('closest:', get_closest_bar(data, longitude, latitude))
     else:
     	raise NameError('Wrong file type!')
-
-    #print(json.dumps(data, sort_keys=True, indent=2))
     
 
